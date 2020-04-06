@@ -4,7 +4,7 @@
 def translateCodonToAmino(codon):
     """Translate a DNA codon to it's Amino acid using the RNA codon table."""
     rna_codon_table = {
-        ('GCT', 'GCC', 'GCA', 'GCG'): 'A',
+        ('GCT', 'GCC', 'GCA', 'GCG'): 'A'
     }
     return rna_codon_table[codon]
 
